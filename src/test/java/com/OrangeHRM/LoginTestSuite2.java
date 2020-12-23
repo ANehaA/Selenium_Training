@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 
-public class LoginTestSuite {
+public class LoginTestSuite2 {
 	
 	ChromeDriver driver;
 		
