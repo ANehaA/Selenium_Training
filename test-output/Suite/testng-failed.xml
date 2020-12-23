@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="4" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.OrangeHRM.Crossbrowser2">
+        <methods>
+          <include name="IETest"/>
+          <include name="EdgeTest"/>
+          <include name="FirefoxTest"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.Crossbrowser2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
